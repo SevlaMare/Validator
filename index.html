@@ -1,0 +1,36 @@
+<hmtl lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Validator</title>
+        <link href="style.css" rel=stylesheet>
+    </head>
+    
+<body>
+    <header>
+        <h1>Age Validator</h1>
+    </header>
+    <section>
+        <div class="resp">
+            <p>Year of Birth:
+                <input type="number" name="input-year" id="input-year" min="1900" max="2100">
+            </p>
+            <p>Gender:
+                <input type="radio" name="input-gender" id="male" checked>
+                <label for="male">Male</label>
+                <input type="radio" name="input-gender" id="fem">
+                <label for="fem">Female</label>
+            </p>
+            <p>
+                <input type="button" value="Check" onclick="check()">
+            </p>
+        </div>
+        <div class="resp">
+            <p id="result">Fill the text fields to see results.</p>
+        </div>
+    </section>
+    <footer>
+        <p><a href="https://github.com/SevlaMare">GitHub</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</hmtl>
